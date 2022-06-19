@@ -87,12 +87,13 @@ img {
     font-family: 'Roboto', sans-serif;
 }
 
-.btn:hover{
+.btn:hover {
     cursor: pointer;
     background-color: #166fe5;
     transition-property: background-color;
     transition-duration: 0.6s;
 }
+
 .forget-signup-container {
     width: 68%;
     /* border: 2px solid yellow; */
@@ -108,10 +109,11 @@ img {
 
 
 @media only screen and (min-width:350px) and (max-width:400px) {
-    .main-container{
+    .main-container {
         width: 95%;
     }
-    .forget-signup-container{
+
+    .forget-signup-container {
         width: 78%;
         font-size: 0.87rem;
     }
@@ -120,11 +122,19 @@ img {
 
 
 @media only screen and (max-width:350px) {
-    .main-container{
+    .main-container {
         width: 95%;
     }
-    .forget-signup-container{
+
+    .forget-signup-container {
         width: 83%;
+        font-size: 0.82rem;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .forget-signup-container {
+        width: 90%;
         font-size: 0.82rem;
     }
 }
