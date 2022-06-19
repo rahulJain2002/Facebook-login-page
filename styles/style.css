@@ -104,3 +104,29 @@ img {
 .forget-signup-container a {
     text-decoration: none;
 }
+
+
+
+@media only screen and (min-width:350px) and (max-width:400px) {
+    .main-container{
+        width: 95%;
+    }
+    .forget-signup-container{
+        width: 78%;
+        font-size: 0.87rem;
+    }
+}
+
+
+
+@media only screen and (max-width:350px) {
+    .main-container{
+        width: 95%;
+    }
+    .forget-signup-container{
+        width: 80%;
+        font-size: 0.85rem;
+    }
+}
+
+
