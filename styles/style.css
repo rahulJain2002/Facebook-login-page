@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-container {
+    background-color: #f0f2f5;
+    height: 86vh;
+    min-height: 31.99em;
+    max-height: 31.99em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    /* border: 2px solid red; */
+    height: 78%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+img {
+    height: 92%;
+
+}
+
+.login-card {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: 80%;
+    background-color: white;
+    box-shadow: 0px 1px 5px #a19d9d;
+    border-radius: 5px;
+
+}
+
+.login-card h3 {
+    text-align: center;
+    font-size: 1.15rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.confidential-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid grey; */
+    height: 57%;
+}
+
+.confidential-container input {
+    height: 33%;
+    margin: 1.5% 4.5%;
+    padding-left: 4%;
+    font-size: 1rem;
+    color: #9e9c9c;
+    border: 1px solid #dfdddd;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.confidential-container button {
+    height: 34%;
+    margin: 1.5% 4.5%;
+    background-color: rgb(64, 132, 218);
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #166fe5;
+    transition-property: background-color;
+    transition-duration: 0.6s;
+}
+.forget-signup-container {
+    width: 68%;
+    /* border: 2px solid yellow; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget-signup-container a {
+    text-decoration: none;
+}
